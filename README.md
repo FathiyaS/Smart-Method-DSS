@@ -23,7 +23,6 @@ It allows users to manage **criteria**, **alternatives**, input decision matrix 
 - Data Normalization (SMART method)  
 - Utility & Total Score Calculation  
 - Ranking Results Display  
-- Responsive UI with Bootstrap 5  
 
 ---
 
