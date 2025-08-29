@@ -121,7 +121,7 @@ usort($hasil, fn($x,$y) => $y['nilai'] <=> $x['nilai']);
       </tbody>
     </table>
   </div>
-
+ 
   <!-- Step 3 -->
   <h4 class="mt-4">3) Utility (Normalisasi × Bobot)</h4>
   <div class="table-responsive">
