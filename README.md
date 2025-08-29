@@ -13,7 +13,6 @@ It allows users to manage **criteria**, **alternatives**, input decision matrix 
 - [🚀 How to Run](#-how-to-run)  
 - [📖 SMART Method](#-smart-method)  
 - [📸 Preview](#-preview)  
-- [👨‍💻 Contributor](#-contributor)  
 
 ---
 
@@ -37,11 +36,11 @@ It allows users to manage **criteria**, **alternatives**, input decision matrix 
 ---
 
 ## 📂 Project Structure
-├── config.php # Database connection
-├── index.php # Main dashboard (CRUD + matrix input)
-├── hitung.php # SMART calculation step-by-step + ranking
-└── README.md # Project documentation
 
+├── config.php         
+├── index.php             
+├── hitung.php          
+└── README.md           
 
 ---
 
