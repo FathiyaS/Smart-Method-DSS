@@ -14,7 +14,7 @@ $nilai = [];
 $rs = $koneksi->query("SELECT * FROM nilai");
 while ($row = $rs->fetch_assoc()) $nilai[$row['id_alternatif']][$row['id_kriteria']] = $row['nilai'];
 
-// Step 1: Nilai Awal (matrix apa adanya)
+// Step 1: Nilai Awal 
 $nilai_awal = $nilai;
 
 // Step 2: Normalisasi (asumsi semua kriteria benefit: val / max)
@@ -62,7 +62,7 @@ usort($hasil, fn($x,$y) => $y['nilai'] <=> $x['nilai']);
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="container py-4">
-  <h2 class="mb-4">Perhitungan SMART – Step by Step</h2>
+  <h2 class="mb-4">Hasil Perhitungan</h2>
 
   <!-- Step 1 -->
   <h4>1) Nilai Awal</h4>

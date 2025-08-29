@@ -129,7 +129,7 @@ if (isset($_GET['edit_alternatif'])) {
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="container py-4">
-  <h2 class="mb-4">Dashboard SMART – Input Data & Rekap Tabel</h2>
+  <h2 class="mb-4">Dashboard – Input Data & Rekap Tabel</h2>
 
     <!-- ===== A L T E R N A T I F ===== -->
   <div class="row g-4">
